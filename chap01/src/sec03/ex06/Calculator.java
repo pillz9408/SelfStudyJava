@@ -1,0 +1,22 @@
+package sec03.ex06;
+
+public class Calculator {
+	
+	//메소드
+	void powerOn() {
+		System.out.println("start");
+	}
+	int plus(int x, int y) {
+		int result = x+y;
+		return result;
+	}
+	double divide(int x, int y) {
+		double result = (double)x/(double)y;
+		return result;
+	}
+	
+	void powerOff() {
+		System.out.println("end");
+	}
+	
+}
